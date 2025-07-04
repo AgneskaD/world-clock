@@ -7,14 +7,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
-    <title>World Clock - Aga</title>
+    <title>World Clock</title>
   </head>
   <body>
     <div class="container">
     <img src="images/beep.png" alt="Winston the Mascot" class="logo">
-  <button id="theme-toggle" class="button" style="position: absolute; top: 20px; right: 20px;">
-  Toggle Theme
-</button>
 
 
       <h1>World Clock</h1>
@@ -27,22 +24,23 @@
         <option value="Pacific/Auckland">Auckland</option>
       </select>
 
-        <div id="cities">
-        <div class="city" id="los-angeles">
-          <div>
-            <h2>Los Angeles 🇺🇸</h2>
-            <div class="date"></div>
-          </div>
-          <div class="time"></div>
-        </div>
-        <div class="city" id="paris">
-          <div>
-            <h2>Paris 🇫🇷</h2>
-            <div class="date"></div>
-          </div>
-          <div class="time"></div>
-        </div>
+  <div id="cities">
+  <div class="city" id="san-francisco">
+    <div>
+      <h2>San Francisco 🇺🇸</h2>
+      <div class="date"></div>
     </div>
+    <div class="time"></div>
+  </div>
+  <div class="city" id="warsaw">
+    <div>
+      <h2>Warsaw 🇵🇱</h2>
+      <div class="date"></div>
+    </div>
+    <div class="time"></div>
+  </div>
+</div>
+
     <footer>
       This project was coded with ❤️ by <strong>Agnieszka Dawidowicz</strong> and is
       <a href="https://github.com/AgneskaD/world-clock" target="_blank">
