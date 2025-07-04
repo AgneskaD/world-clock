@@ -25,4 +25,4 @@ A responsive world clock web application built with HTML, CSS, and JavaScript. I
 
 ## 🧠 Inspiration & Learning
 
-This project was built during the **SheCodes workshop**, led by [Matthieu Delac](https://www.linkedin.com/in/mattdelac/), who breaks down coding into easy-to-follow, beg
+This project was built during the **SheCodes workshop**, led by [Matthieu Delac](https://www.linkedin.com/in/mattdelac/), who breaks down coding into easy-to-follow bits.
