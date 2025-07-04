@@ -43,6 +43,8 @@ function updateCity(event) {
   )}</small></div>
   </div>
   `;
+  // Show back link
+  document.querySelector("#back-link").style.display = "block";
 }
 
 updateTime();
